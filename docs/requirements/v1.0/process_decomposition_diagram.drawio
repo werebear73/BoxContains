@@ -1,0 +1,222 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="2074" dy="1197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="Process Decomposition Diagram" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;treeFolding=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="3570" height="730" as="geometry" />
+        </mxCell>
+        <UserObject label="BoxContains" placeholders="1" id="dNxyNK7c78bLwvsdeMH5-12">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="1520" y="60" width="180" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-13" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Track Storage Containers" placeholders="1" id="dNxyNK7c78bLwvsdeMH5-14">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="420" y="190" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-15" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Track Categories" placeholders="1" id="dNxyNK7c78bLwvsdeMH5-16">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="1520" y="190" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-17" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Track Items" placeholders="1" id="dNxyNK7c78bLwvsdeMH5-18">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
+            <mxGeometry x="2880" y="190" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-1" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-2" source="dNxyNK7c78bLwvsdeMH5-14" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Add Storage Container" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-2">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="40" y="310" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-3" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-4" source="dNxyNK7c78bLwvsdeMH5-14" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Edit a Storage Container" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-4">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="230" y="310" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-5" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-6" source="dNxyNK7c78bLwvsdeMH5-14" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="List Storage Containers" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-6">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="420" y="310" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-7" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-8" source="dNxyNK7c78bLwvsdeMH5-14" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Get Storage Container Details" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-8">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="610" y="310" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-9" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-10" source="dNxyNK7c78bLwvsdeMH5-14" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Delete a Storage Container" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-10">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="800" y="310" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-11" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-12" source="dNxyNK7c78bLwvsdeMH5-16" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Add a Category" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-12">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="1140" y="310" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-13" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-14" source="dNxyNK7c78bLwvsdeMH5-16" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Update Category" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-14">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="1330" y="310" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-15" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-16" source="dNxyNK7c78bLwvsdeMH5-16" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="List Categories" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-16">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="1520" y="310" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-17" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-18" source="dNxyNK7c78bLwvsdeMH5-16" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Get a Category Details" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-18">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="1710" y="310" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-19" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-20" source="dNxyNK7c78bLwvsdeMH5-16" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Delete a Category" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-20">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="1900" y="310" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-21" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-22" source="dNxyNK7c78bLwvsdeMH5-18" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Add Item" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-22">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="2400" y="305" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-23" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-24" source="dNxyNK7c78bLwvsdeMH5-18" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Update Item" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-24">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;" vertex="1" collapsed="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="2590" y="305" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-25" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-26" source="dNxyNK7c78bLwvsdeMH5-18" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="List Items" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-26">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="2780" y="305" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-27" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-28" source="dNxyNK7c78bLwvsdeMH5-18" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Get Item Details" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-28">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="2970" y="305" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-29" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-30" source="dNxyNK7c78bLwvsdeMH5-18" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Duplicate Item" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-30">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="3160" y="305" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-31" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-32" source="dNxyNK7c78bLwvsdeMH5-18" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Delete Item" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-32">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="3350" y="305" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-35" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" visible="0" target="ecJ1Uqb1C3m-fh9xzzg7-36" source="ecJ1Uqb1C3m-fh9xzzg7-24" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2530" y="345" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Change the box in which an item belongs" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-36">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;" vertex="1" visible="0" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="2495" y="425" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-37" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" visible="0" target="ecJ1Uqb1C3m-fh9xzzg7-38" source="ecJ1Uqb1C3m-fh9xzzg7-24" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2530" y="345" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Mark Items as In-Use or Out-of-Box" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-38">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;" vertex="1" visible="0" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="2685" y="425" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
