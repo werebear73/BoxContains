@@ -6,7 +6,7 @@
 <ol>
 	<li>Track Storage Containers</li>
 	<ol>
-		<li>[Add a Storage Container](#add-a-storage-container)</li>
+		<li>[Add a Storage Container](####add-a-storage-container)</li>
 		<li>Edit a Storage Container</li>
 		<li>List Storage Containers</li>
 		<li>Get Storage Container Details</li>
