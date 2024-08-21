@@ -408,7 +408,9 @@ ___
 
 | ID | Entity Name | Unique Identifier | Number of Occurances | Owner |
 |:---:|:---|:---|:---:|:---|
-|||||
+|EN1|Storage Container|Storage Container ID|50|User|
+|EN2|Category|Category ID|10|User|
+|EN3|Item|Item ID|500|User
 
 
 ### Entity Relationship Diagram
@@ -422,6 +424,17 @@ ___
 |storage_container_name|Y|N|N|string|Any|NULL|user|Name of the Storage Container|
 |storage_container_label|Y|Y|N|string|Any|N/A|user|Label on the Storage Container|
 
+##### Attribute Validation and Defaults
+|Attribute Name|Validation|Default|Comments|
+|:---:|:---:|:---:|:---|
+|storage_container_id||Auto-Incremented by Database||
+|storage_container_name|Length less 255 characters|NULL||
+|storage_container_label|Length less 255 characters||
+
+##### Relationships
+|Entity Pair|Foreign Key|Business Rule|Type|Comments
+|:---:|:---:|:---:|:---:|:---:|
+|Storage Container<br>&<br>Item|FK1||One-to-Many<br>Storage Container / Item|This relationship represents that the items are in the Storage Container|
 
 #### Category
 | Name | U | M | R | Data Type / Length | Valid Values | Default Values | Owner | Definition |
@@ -429,17 +442,44 @@ ___
 |category_id|Y|Y|N|int|positive|auto-increment|database|Category Unique Identifier|
 |category_name|Y|Y|N|string|Not zero length string|N/A|user|Name for the Category|
 
+##### Attribute Validation and Defaults
+|Attribute Name|Validation|Default|Comments|
+|:---:|:---:|:---:|:---|
+|category_id||Auto-Incremented by Database||
+|category_name|Length less 255 characters|N/A||
+
+##### Relationships
+|Entity Pair|Foreign Key|Business Rule|Type|Comments
+|:---:|:---:|:---:|:---:|:---:|
+|Category<br>&<br>Item|FK2||One-to-Many<br>Category / Item|This relationship represents that the items are of the Category|
+
 #### Item
 | Name | U | M | R | Data Type / Length | Valid Values | Default Values | Owner | Definition |
 |:---|:---:|:---:|:---:|:---|:---:|:---:|:---:|:---|
 |item_id|Y|Y|N|int|positive|auto-increment|database|Item Unique Identifier|
 |item_name|Y|Y|N|string|Not zero length string|N/A|user|Name of the Item|
 |quantity|N|Y|N|int|positive|1|user|Number of the items that are possessed|
-|category_id|N|Y|N|int|Have a matching value in the category list|None|database|Category Unique Identifier of the Category of the Item|
-|storage_container_id|N|Y|N|int|Have a matching value in the storage container list|NULL|database|Storage Container Unique Identifier of the Storage Container in which the Item belongs|
+|category_id|N|Y|N|int|See below|None|database|Category Unique Identifier of the Category of the Item|
+|storage_container_id|N|Y|N|int|See below|NULL|database|Storage Container Unique Identifier of the Storage Container in which the Item belongs|
 |in_use|N|Y|N|boolean|N/A|False|user|Whether or not the item is in-use i.e. not in the designated storage box|
 
-### Valid Values/Default Values
+##### Attribute Validation and Defaults
+|Attribute Name|Validation|Default|Comments|
+|:---:|:---:|:---:|:---|
+|item_id||Auto-Incremented by Database||
+|item_name|Length less 255 characters|N/A||
+|quantity|Must be greater than 0|1||
+|category_id|Must have a value in the Category list|||
+|storage_container_id|Must have a value in the Storage Container list|||
+|in_use||False||
 
-### Relationships
+
+##### Relationships
+|Entity Pair|Foreign Key|Business Rule|Type|Comments
+|:---:|:---:|:---:|:---:|:---:|
+|Storage Container<br>&<br>Item|FK1||One-to-Many<br>Storage Container / Item|This relationship represents that the items are in the Storage Container|
+|Category<br>&<br>Item|FK2||One-to-Many<br>Category / Item|This relationship represents that the items are of the Category|
+
+
+
 
