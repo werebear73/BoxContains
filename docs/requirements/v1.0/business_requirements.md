@@ -3,37 +3,30 @@
 ### Process Decomposition Diagram
 ![Process Decomposition Diagram](process_decomposition_diagram.svg)
 ### Process List
-<ol>
-	<li>Track Storage Containers</li>
-	<ol>
-		<li>[Add a Storage Container](####add-a-storage-container)</li>
-		<li>Edit a Storage Container</li>
-		<li>List Storage Containers</li>
-		<li>Get Storage Container Details</li>
-		<li>Delete a Storage Container</li>
-	</ol>
-	<li>Track Categories</li>
-	<ol>
-		<li>Add a Category</li>
-		<li>Edit a Category</li>
-		<li>List Categories</li>
-		<li>Get Category Details</li>
-		<li>Delete a Category</li>
-	</ol>
-	<li>Track Items</li>
-	<ol>
-		<li>Add an Item</li>
-		<li>Edit an Item</li>
-		<li>List Items</li>
-		<li>Get Item Details</li>
-		<li>Delete a Item</li>
-	</ol>
-</ol>
+1. Track Storage Containers
+	a. [Add a Storage Container](####add-a-storage-container)
+	a. [Edit a Storage Container](####edit-a-storage-container)
+	a. [List Storage Containers](####list-storage-containers)
+	a. [Get Storage Container Details](####get-storage-container-details)
+	a. [Delete a Storage Container](####delete-a-storage-container)
+1. Track Categories
+	a. [Add a Category](####add-a-category)
+	a. [Edit a Category](####edit-a-category)
+    a. [List Categories](####list-categories)
+	a. [Get Category Details](####get-category-details)
+	a. [Delete a Category](####delete-a-category)
+	
+1. Track Items
+	a. [Add an Item](####add-an-item)
+	a. [Edit an Item](####edit-an-item)
+	a. [List All Items](####list-all-items)
+	a. [Get Item Details](####get-item-details)
+	a. [Delete a Item](####delete-a-item)
 
 ### Process Details
 ___
 #### Add a Storage Container
-**Process ID:** BP1i
+**Process ID:** BP1a
 
 **Detailed Description:** Add a new Storage Container record.  
 
@@ -56,7 +49,7 @@ ___
 **Information source:** 
 ___
 #### Edit a Storage Container
-**Process ID:** BP1ii
+**Process ID:** BP1b
 
 **Detailed Description:** Changed the values of the details of the Storage Container.
 
@@ -79,7 +72,7 @@ ___
 **Information source:** 
 ___
 #### List Storage Containers
-**Process ID:** BP1iii
+**Process ID:** BP1c
 
 **Detailed Description:** This returns a list of all Storage Containers
 
@@ -102,7 +95,7 @@ ___
 **Information source:** 
 ___
 #### Get Storage Container Details
-**Process ID:** BP1iv
+**Process ID:** BP1d
 
 **Detailed Description:** Retrieve the details of a Storage Container from persistent storage
 
@@ -125,7 +118,7 @@ ___
 **Information source:** 
 ___
 #### Delete a Storage Container
-**Process ID:** BP1v
+**Process ID:** BP1e
 
 **Detailed Description:** Remove the Storage Container record.  Update any items in the Storage Container and make them no longer in a container.
 
