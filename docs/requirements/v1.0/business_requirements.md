@@ -436,6 +436,7 @@ ___
 |:---:|:---:|:---:|:---:|:---:|
 |Storage Container<br>&<br>Item|FK1||One-to-Many<br>Storage Container / Item|This relationship represents that the items are in the Storage Container|
 
+---
 #### Category
 | Name | U | M | R | Data Type / Length | Valid Values | Default Values | Owner | Definition |
 |:---|:---:|:---:|:---:|:---|:---:|:---:|:---:|:---|
@@ -453,6 +454,7 @@ ___
 |:---:|:---:|:---:|:---:|:---:|
 |Category<br>&<br>Item|FK2||One-to-Many<br>Category / Item|This relationship represents that the items are of the Category|
 
+---
 #### Item
 | Name | U | M | R | Data Type / Length | Valid Values | Default Values | Owner | Definition |
 |:---|:---:|:---:|:---:|:---|:---:|:---:|:---:|:---|
