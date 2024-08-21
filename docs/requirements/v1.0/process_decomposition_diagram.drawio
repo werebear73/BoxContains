@@ -152,7 +152,7 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="Update Item" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-24">
-          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;" vertex="1" collapsed="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
             <mxGeometry x="2590" y="305" width="180" height="80" as="geometry" />
           </mxCell>
         </UserObject>
@@ -196,23 +196,23 @@
             <mxGeometry x="3350" y="305" width="180" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-35" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" visible="0" target="ecJ1Uqb1C3m-fh9xzzg7-36" source="ecJ1Uqb1C3m-fh9xzzg7-24" parent="dNxyNK7c78bLwvsdeMH5-11">
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-35" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-36" source="ecJ1Uqb1C3m-fh9xzzg7-24" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2530" y="345" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <UserObject label="Change the box in which an item belongs" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-36">
-          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;" vertex="1" visible="0" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
             <mxGeometry x="2495" y="425" width="180" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-37" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" visible="0" target="ecJ1Uqb1C3m-fh9xzzg7-38" source="ecJ1Uqb1C3m-fh9xzzg7-24" parent="dNxyNK7c78bLwvsdeMH5-11">
+        <mxCell id="ecJ1Uqb1C3m-fh9xzzg7-37" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="ecJ1Uqb1C3m-fh9xzzg7-38" source="ecJ1Uqb1C3m-fh9xzzg7-24" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2530" y="345" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <UserObject label="Mark Items as In-Use or Out-of-Box" placeholders="1" id="ecJ1Uqb1C3m-fh9xzzg7-38">
-          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;" vertex="1" visible="0" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
             <mxGeometry x="2685" y="425" width="180" height="80" as="geometry" />
           </mxCell>
         </UserObject>
