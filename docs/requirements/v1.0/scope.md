@@ -23,6 +23,9 @@ We need an application to track what items are in our storage boxes so that we c
 |:---:|:---|
 |CO1|Application can only be accessed from our home network|
 
+### External Interactions
+#### Context Level Dataflow Diagram
+![Context Level Dataflow Diagram](context_level_dataflow_diagram.svg)
 
 ### High Level Processes
 | ID | High Level Process |
