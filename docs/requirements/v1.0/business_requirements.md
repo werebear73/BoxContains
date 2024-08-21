@@ -482,6 +482,35 @@ ___
 |Storage Container<br>&<br>Item|FK1||One-to-Many<br>Storage Container / Item|This relationship represents that the items are in the Storage Container|
 |Category<br>&<br>Item|FK2||One-to-Many<br>Category / Item|This relationship represents that the items are of the Category|
 
+## Design Area Scope
+### Design Plan
+|ID|Requirement Description|Business Priority<br>H,M,L|Technical Priority<br>H,M,L|Estimate<br>(i.e. cost , time)|Phase|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|ODP1|Implemention of Category API|H|H|24 WH|Phase 1|
+|ODP2|Deploy Category API|H|H|8 WH|Phase 1|
+|ODP3|Implemention of Storage Container API|H|H|24 WH|Phase 2|
+|ODP4|Deploy Storage Container API|H|H|8 WH|Phase 2|
+|ODP5|Implemention of Item API|H|H|24 WH|Phase 3|
+|ODP6|Deploy Item API|H|H|8 WH|Phase 3|
+|ODP5|Implemention of UI|H|H|72 WH|Phase 4|
+|ODP6|Deploy UI|H|H|8 WH|Phase 4|
 
 
+### Implementation Phases
+|Phase|Description of work|
+|:---:|:---:|
+|1|Category API|
+|2|Storage Container API|
+|3|Items API|
+|4|User Interface|
+
+## Use Cases
+### Use Case Diagram
+![Use Case Diagram](use_case_diagram.svg)
+
+### Use classes
+
+|ID|User Class|Tasks|Concerns|
+|:---:|:---:|:---:|:---|
+|UCL1|User|Track Storage Containers<br>Track Categories<br>Track Items|Management of the Items and their Category and Storage Container|
 
