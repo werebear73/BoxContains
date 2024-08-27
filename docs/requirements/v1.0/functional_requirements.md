@@ -90,7 +90,7 @@
 
 ---
 #### Get a List of all Categories
-**Use Case ID:** UC2
+**Use Case ID:** UC3
 
 **Created By:** Sam D Ware
 
