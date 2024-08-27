@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\BoxContains.Category\src\core\BoxContains.Category.Domain\BoxContains.Category.Domain.csproj" />
+    <ProjectReference Include="..\BoxContains.Category.Domain\BoxContains.Category.Domain.csproj" />
   </ItemGroup>
 
 </Project>
