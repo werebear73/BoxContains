@@ -1,6 +1,4 @@
-﻿using BoxContains.Category.Domain;
-
-namespace BoxContains.Category.Application.Contracts;
+﻿namespace BoxContains.Category.Application.Contracts;
 
 public interface ICategoryRepository
 {
@@ -9,7 +7,7 @@ public interface ICategoryRepository
     /// </summary>
     /// <param name="id">Unique Identifier of the Category</param>
     /// <returns>Category</returns>
-    Task<Domain.Category> GetByIdAsync(int id);
+    Task<Domain.Category?> GetByIdAsync(int id);
     /// <summary>
     /// Get All the Categories
     /// </summary>
