@@ -18,6 +18,6 @@ public class CreateCategoryValidator : AbstractValidator<CreateCategoryCommand>
             .WithMessage("{PropertyName} can not be empty.");
         RuleFor(p => p.Name)
             .Length(1,255)
-            .WithMessage("{PropertyName} can not be more than 255 characters.");
+            .WithMessage("{PropertyName} can not be less than 1 character or more than 255 characters.");
     }
 }
