@@ -14,6 +14,7 @@ This project follows the following folder structure:
 				- BoxContains.Category.Application
 				- BoxContains.Category.Domain
 			- infrastructure: Contains the Infrastructure Layers of the Project
+				- BoxContains.Category.Persistence
 			- interfaces: Contains the Interface Layers of the Project
 		- tests: Contains the test plans for the project
 - tests: Contains the test plans for the project
@@ -21,4 +22,4 @@ This project follows the following folder structure:
 Root Folder contains the README, License, Solution File, and any other files required to be there.
 ```
 ## Notes
-1. I don't normal embed projects this but I wanted the entire in a single Git Repository so src has this additional layer
+1. I don't normally embed projects this but I wanted the entire in a single Git Repository so src has this additional layer
