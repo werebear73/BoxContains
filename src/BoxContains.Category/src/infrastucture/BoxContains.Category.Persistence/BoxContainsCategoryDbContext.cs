@@ -10,18 +10,19 @@ public class BoxContainsCategoryDbContext : DbContext
 {
     public BoxContainsCategoryDbContext(DbContextOptions<BoxContainsCategoryDbContext> options) : base(options)
     {
-        if (this.Database.CanConnect())
-        {
-            List<string> migrations = this.Database.GetPendingMigrations().ToList();
-            if (migrations.Any())
-            {
-                this.Database.Migrate();
-            }
-        }
-        else
-        {
-            this.Database.EnsureCreated();
-        }
+        this.Database.MigrateAsync();
+        //if (this.Database.CanConnect())
+        //{
+        //    List<string> migrations = this.Database.GetPendingMigrations().ToList();
+        //    if (migrations.Any())
+        //    {
+        //        this.Database.Migrate();
+        //    }
+        //}
+        //else
+        //{
+        //    this.Database.EnsureCreated();
+        //}
     }
 
     public DbSet<Domain.Category> Categories { get; set; }
@@ -49,12 +50,12 @@ public sealed class DBConnectionProvider
     }
 }
 
-public class BoxContainsCategoryDbContextFactory : IDesignTimeDbContextFactory<BoxContainsCategoryDbContext>
-{
-    public BoxContainsCategoryDbContext CreateDbContext(string[] args)
-    {
-        var optionsBuilder = new DbContextOptionsBuilder<BoxContainsCategoryDbContext>();
-        optionsBuilder.UseNpgsql("Host=localhost;port=5432;Database=box_contains;Pooling=true; Connection Lifetime=0;User ID=postgres;Password=Fl@bread73");
-        return new BoxContainsCategoryDbContext(optionsBuilder.Options);
-    }
-}
+//public class BoxContainsCategoryDbContextFactory : IDesignTimeDbContextFactory<BoxContainsCategoryDbContext>
+//{
+//    public BoxContainsCategoryDbContext CreateDbContext(string[] args)
+//    {
+//        var optionsBuilder = new DbContextOptionsBuilder<BoxContainsCategoryDbContext>();
+//        optionsBuilder.UseNpgsql("Host=localhost;port=5432;Database=box_contains;Pooling=true; Connection Lifetime=0;User ID=postgres;Password=Fl@bread73");
+//        return new BoxContainsCategoryDbContext(optionsBuilder.Options);
+//    }
+//}
