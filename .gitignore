@@ -403,3 +403,7 @@ FodyWeavers.xsd
 
 # Python Virtual Enviroment - used for MKDOCs
 .venv
+
+# LaunchSetting.json to protect sensitive information
+**/launchSettings.json
+launchSettings.json
