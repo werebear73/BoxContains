@@ -1,10 +1,12 @@
 using BoxContains.Category.Application;
 using BoxContains.Category.Persistence;
+using BoxContains.Category.Docker.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Configuration.AddEnvironmentVariables();
 
+// Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddApplicationServices();
 builder.Services.AddPersistenceServices(builder.Configuration);
