@@ -26,6 +26,13 @@ Root Folder contains the README, License, Solution File, and any other files req
 
 ## Documentation MKDOCS
 
+### GitHub Pages
+We deploy the documentation via GitHub Actions to GitHub Pages (link below) for easy viewing.
+
+https://werebear73.github.io/BoxContains/
+
+### View Locally
+
 Install MKDOCS and dependencies
 ``` bash
 pip install mkdocs
