@@ -1,0 +1,51 @@
+site_name: Box Contains
+site_description: This project is tracking the contains of storage boxes to easily identify where you stored items.
+dev_addr: 0.0.0.0:8000
+repo_name: werebear73/BoxContains
+repo_url: https://github.com/werebear73/BoxContains
+edit_uri: edit/main/docs
+docs_dir: docs/
+theme:
+  name: material
+  logo: 
+  palette:
+    primary: white
+    accent: black
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - header.autohide
+    - toc.integrate
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon-32x32.png
+
+
+markdown_extensions:
+  - meta
+  - admonition
+  - attr_list
+  - def_list
+  - tables
+  - abbr
+  - footnotes
+  - md_in_html
+  - toc:
+      toc_depth: 4
+plugins:
+  - search
+  - monorepo
+  - awesome-pages
+  - minify:
+      minify_html: true
+
+extra_css:
+  - stylesheets/tables.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/werebear73
+copyright: Copyright &copy; 2024 <a href="https://weretech.services">Waretech Services LLC</a>

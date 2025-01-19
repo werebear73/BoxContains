@@ -1,10 +1,8 @@
-# Initial Requirements
-
-## Project Scope
-### Project Statement of Purpose
+# Project Scope
+## Project Statement of Purpose
 We need an application to track what items are in our storage boxes so that we can easily find the items where we are change home decorations or doing projects like hobbies or home repairs.
 
-### Objective
+## Objective
 | ID | Objective |
 |:---:|:---|
 |OBJ1| Have an easy to use tracking system for storage containers |
@@ -13,21 +11,21 @@ We need an application to track what items are in our storage boxes so that we c
 |OBJ4| Be able to use the tracking system easily from our phone|
 |OBJ5| Share our solution for others to use|
 
-### Project Assumportions
+## Project Assumportions
 | ID | Assumptions |
 |:---:|:---|
 |AS1|Initial version of the application will be contained within our secure home network with no outside access so will not require login or security.  This will be enhanced in later versions.|
 
-### Project Constraints
+## Project Constraints
 | ID | Constraints|
 |:---:|:---|
 |CO1|Application can only be accessed from our home network|
 
-### External Interactions
-#### Context Level Dataflow Diagram
+## External Interactions
+### Context Level Dataflow Diagram
 ![Context Level Dataflow Diagram](context_level_dataflow_diagram.svg)
 
-### High Level Processes
+## High Level Processes
 | ID | High Level Process |
 |:---:|:---|
 |HLP1|Track Storage Container|
@@ -36,7 +34,7 @@ We need an application to track what items are in our storage boxes so that we c
 |HLP4|Track Items Location (which box it is in/belongs)|
 |HLP5|Track if Items are in use (out of the designated box)|
 
-### Glossary
+## Glossary
 | ID | Term | Definition |
 |:---:|:---|:---|
 |GL1|||

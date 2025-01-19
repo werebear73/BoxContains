@@ -7,6 +7,8 @@ This project follows the following folder structure:
 ```
 - docs: Contains documentation about the project
 	- requirements: Contains the project requirements by version.  Inside the version folder, you will find the scope, business requirement, functional requirement, and any other associated figures (source and image).
+	- assets: Assets for MKDOCS
+	- stylesheets: Stylesheets for MKDOCS
 - src: Contains the source code of the project
 	- BoxContains.Category: All the projects associated with the Category (See Notes #1)
 		- src
@@ -21,21 +23,19 @@ This project follows the following folder structure:
 
 Root Folder contains the README, License, Solution File, and any other files required to be there.
 ```
+
+## API Microservices
+
+### Build Category API
+``` bash
+ docker build -t box-contains-category_api:dev -f .\src\BoxContains.Category\src\interfaces\BoxContains.Category.Docker\Dockerfile .
+```
+
+### Launch Category API
+``` bash
+docker run -p 8080:8080 --name=box-contains-category_api_dev_ box-contains-category_api:dev 
+```
+
 ## Notes
 1. I don't normally embed projects this but I wanted the entire in a single Git Repository so src has this additional layer
 
-## Documentation MKDOCS
-
-Install MKDOCS and dependencies
-``` bash
-pip install mkdocs
-pip install mkdocs-material
-pip install mkdocs-minify-plugin
-pip install mkdocs-monorepo-plugin
-pip install mkdocs-awesome-pages
-```
-
-Serve MKDOCS on port 8000
-``` bash
-python -m mkdocs serve
-```

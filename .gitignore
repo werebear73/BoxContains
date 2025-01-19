@@ -400,3 +400,6 @@ FodyWeavers.xsd
 # DrawIO temporary files
 *.dtmp
 *.bkp
+
+# Python Virtual Enviroment - used for MKDOCs
+.venv
