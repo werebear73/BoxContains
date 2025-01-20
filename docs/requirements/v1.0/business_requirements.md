@@ -4,23 +4,23 @@
 ![Process Decomposition Diagram](process_decomposition_diagram.svg)
 ### Process List
 1. Track Storage Containers
-   1. [Add a Storage Container](####add-a-storage-container)
-   1. [Edit a Storage Container](####edit-a-storage-container)
-   1. [List Storage Containers](####list-storage-containers)
-   1. [Get Storage Container Details](####get-storage-container-details)
-   1. [Delete a Storage Container](####delete-a-storage-container)
+   1. [Add a Storage Container](#add-a-storage-container)
+   1. [Edit a Storage Container](#edit-a-storage-container)
+   1. [List Storage Containers](#list-storage-containers)
+   1. [Get Storage Container Details](#get-storage-container-details)
+   1. [Delete a Storage Container](#delete-a-storage-container)
 1. Track Categories
-   1. [Add a Category](####add-a-category)
-   1. [Edit a Category](####edit-a-category)
-   1. [List Categories](####list-categories)
-   1. [Get Category Details](####get-category-details)
-   1. [Delete a Category](####delete-a-category)
+   1. [Add a Category](#add-a-category)
+   1. [Edit a Category](#edit-a-category)
+   1. [List Categories](#list-categories)
+   1. [Get Category Details](#get-category-details)
+   1. [Delete a Category](#delete-a-category)
 1. Track Items
-   1. [Add an Item](####add-an-item)
-   1. [Edit an Item](####edit-an-item)
-   1. [List All Items](####list-all-items)
-   1. [Get Item Details](####get-item-details)
-   1. [Delete a Item](####delete-a-item)
+   1. [Add an Item](#add-an-item)
+   1. [Edit an Item](#edit-an-item)
+   1. [List All Items](#list-all-items)
+   1. [Get Item Details](#get-item-details)
+   1. [Delete a Item](#delete-a-item)
 
 ### Process Details
 ___
