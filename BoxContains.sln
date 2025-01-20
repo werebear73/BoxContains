@@ -5,8 +5,8 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{E4D23527-A7AB-42CC-AC70-1BF04361125C}"
 	ProjectSection(SolutionItems) = preProject
+		.pages = .pages
 		docs\index.md = docs\index.md
-		docs\stylesheets\tables.css = docs\stylesheets\tables.css
 		docs\versions.md = docs\versions.md
 	EndProjectSection
 EndProject
@@ -38,6 +38,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D9AB8F32-923D-4987-ABD8-B2F54E50644F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BoxContains.Category", "BoxContains.Category", "{4DEBF082-4774-4B30-ABBB-1B3993E00B1D}"
+	ProjectSection(SolutionItems) = preProject
+		src\BoxContains.Category\mkdocs.yml = src\BoxContains.Category\mkdocs.yml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{84B56482-F18D-418F-AB18-6C657BA69206}"
 EndProject
@@ -71,14 +74,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stylesheets", "stylesheets"
 		docs\stylesheets\tables.css = docs\stylesheets\tables.css
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{F19A68FD-B8C2-4B31-B068-280A67CFF629}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{10E38034-7CDB-4986-ABDA-2B087CAF7555}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{3C867764-E421-4262-9D91-FE144FB0D1DB}"
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\docs.yml = .github\workflows\docs.yml
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{47A1215F-6F1A-4953-A396-5E04EFA3C387}"
+	ProjectSection(SolutionItems) = preProject
+		src\BoxContains.Category\docs\index.md = src\BoxContains.Category\docs\index.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{46E39F4C-8C37-4768-9825-3BA57B931C79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -130,8 +138,9 @@ Global
 		{42289CC8-9112-40EC-8AAD-2973C1075FDE} = {622D6352-01C5-4B62-A211-759E65990247}
 		{51FAD0FF-C6A8-4359-821F-D8F68E4A2BD5} = {E4D23527-A7AB-42CC-AC70-1BF04361125C}
 		{16F9D0C9-F36F-47A1-81C9-F7E7FC4D59D8} = {E4D23527-A7AB-42CC-AC70-1BF04361125C}
-		{F19A68FD-B8C2-4B31-B068-280A67CFF629} = {4DEBF082-4774-4B30-ABBB-1B3993E00B1D}
 		{3C867764-E421-4262-9D91-FE144FB0D1DB} = {10E38034-7CDB-4986-ABDA-2B087CAF7555}
+		{47A1215F-6F1A-4953-A396-5E04EFA3C387} = {4DEBF082-4774-4B30-ABBB-1B3993E00B1D}
+		{46E39F4C-8C37-4768-9825-3BA57B931C79} = {47A1215F-6F1A-4953-A396-5E04EFA3C387}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5663B815-F037-4462-9822-97BF6477EF1B}

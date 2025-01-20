@@ -24,18 +24,6 @@ This project follows the following folder structure:
 Root Folder contains the README, License, Solution File, and any other files required to be there.
 ```
 
-## API Microservices
-
-### Build Category API
-``` bash
- docker build -t box-contains-category_api:dev -f .\src\BoxContains.Category\src\interfaces\BoxContains.Category.Docker\Dockerfile .
-```
-
-### Launch Category API
-``` bash
-docker run -p 8080:8080 --name=box-contains-category_api_dev_ box-contains-category_api:dev 
-```
-
 ## Notes
 1. I don't normally embed projects this but I wanted the entire in a single Git Repository so src has this additional layer
 

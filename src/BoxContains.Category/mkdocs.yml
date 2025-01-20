@@ -1,5 +1,5 @@
-site_name: Box Contains
-site_description: This project is tracking the contains of storage boxes to easily identify where you stored items.
+site_name: Box Contains - Category API Microservice
+site_description: This project is tracking the categories of items to be tracked.
 dev_addr: 0.0.0.0:8000
 repo_name: werebear73/BoxContains
 repo_url: https://github.com/werebear73/BoxContains
@@ -24,10 +24,6 @@ theme:
 
 nav:
   - Home: index.md
-  - Project Documentation:
-    - ...
-  - Microservices:
-    - Category API Microservice: '!include ./src/BoxContains.Category/mkdocs.yml'
 
 markdown_extensions:
   - meta
@@ -42,8 +38,8 @@ markdown_extensions:
       toc_depth: 4
 plugins:
   - search
-  - awesome-pages
   - monorepo
+  - awesome-pages
   - minify:
       minify_html: true
 
